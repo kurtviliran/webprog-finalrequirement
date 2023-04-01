@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body {
+    background-image: url('ezgif.com-gif-maker.gif');
+    background-size: cover;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+nav {
+    background-color:#00000000;
+    overflow: hidden;
+    border-radius: 20px;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+}
+
+.one nav ul li {
+    float: right;
+    display: inline-flex;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    
+    
+}
+
+.one nav ul li a {
+    width: 100px;
+    height:60px;
+    line-height: 70px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: #70187cb6;
+    border-radius: 80px;
+}
+
+.one nav a:hover {
+    background-color: #70187c8c;
+    color: black;
+}
+
+.one nav :active {
+    background-color: #ffffff00;
+}
+
+
+.one {
+    
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url('ezgif.com-gif-maker.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #000000;
+}
+
+.two {
+    color: aliceblue;
+    margin-top: 230px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 138px;
+    
+}
+
+.two img{
+    height: 150px;
+    width: 120px;
+    position: relative;
+    display: block;
+    margin-left: none;
+    margin-right: auto;
+    border-radius: 80px;
+    margin-bottom: 20px;
+    opacity: 85%;
+}
+
+.two h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.two p {
+    padding-top: 10px;
+}
+
+.two a {
+    border-radius: 10px;
+    background-color: #00000056;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    cursor: pointer;
+    margin: 10px;
+    margin-top: 20%;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    border: 1px solid pink;
+    margin-left: 43%;
+    
+}
+
+.two a:hover {
+    background-color: #70187c8c;
+    color: black;
+}
+
+.container {
+    background-color: #fed9ff00;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: none;
+    padding: inherit;
+  }
+
+.three{
+    width: 100%;
+    height: auto;
+    background-color: #050505b4;
+    background-size: contain;
+    position: relative;
+}
+
+.three img{
+    height: 20px;
+    width: 20px;
+    padding: 8px 8px;
+    text-align: center;
+}
+
+.three p {
+    color: rgba(112, 111, 112, 0.986);
+     text-align: center;
+}
+
+.pic img{
+    height: 80px;
+    width: 130px;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 1%;
+    opacity: 80%;
+    
+}
